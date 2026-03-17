@@ -31,9 +31,9 @@
     <!-- Navbar -->
     <section>
       <div class="navbar bg-base-100 shadow-sm flex justify-between px-14 py-4">
-        <div class="flex gap-1 items-center">
+        <div class="flex gap-3 items-center text-center">
           <img class="w-10" src="assets/github-logo.png" alt />
-          <a class="btn btn-ghost text-xl">GitHub Issues Tracker</a>
+          <a class=" font-bold text-xl">GitHub Issues Tracker</a>
         </div>
         <div class="flex gap-2">
           <input
@@ -47,13 +47,17 @@
       </div>
     </section>
 
-    <!--Button section  -->
     <main class="w-10/12 mx-auto mt-10">
+      <!--Button section  -->
       <section>
         <div class="flex justify-start gap-2 p-4 rounded-lg bg-white shadow-md">
-          <button id="all-btn" onclick="loadAllIssues(); clickedBtn('all')" class="btn px-2 border-gray-500 text-gray-600">All</button>
-          <button id="open-btn" onclick="loadOpenIssues(); clickedBtn('open')" class="btn px-2 border-gray-500 text-gray-600">Open</button>
-          <button id="close-btn" onclick="loadCloseIssues(); clickedBtn('close')" class="btn px-2 border-gray-500 text-gray-600">Closed</button>
+          <button id="all-btn" onclick="loadAllIssues(); clickedBtn('all')"
+            class="btn px-2 border-gray-500 text-gray-600">All</button>
+          <button id="open-btn" onclick="loadOpenIssues(); clickedBtn('open')"
+            class="btn px-2 border-gray-500 text-gray-600">Open</button>
+          <button id="close-btn"
+            onclick="loadCloseIssues(); clickedBtn('close')"
+            class="btn px-2 border-gray-500 text-gray-600">Closed</button>
         </div>
       </section>
 
@@ -90,8 +94,20 @@
       </section>
 
       <!-- Card section -->
-      <section id="card-section" class="bg-gray-200 p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <section id="card-section"
+        class="bg-gray-200 p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <!-- Cards -->
+      </section>
+
+      <!-- Modal Section -->
+      <section>
+        <!-- Open the modal using ID.showModal() method -->
+        <dialog  id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+          <!-- dialog modal -->
+           
+
+
+        </dialog>
       </section>
     </main>
   </body>
