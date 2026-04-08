@@ -24,6 +24,8 @@ This project includes:
 
 -Search and filtering functionality
 
+---
+
 -🛠️ Technologies Used
 
 -HTML5
