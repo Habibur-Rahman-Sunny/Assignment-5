@@ -25,7 +25,7 @@ This project includes:
 
 -CSS3
 
--JavaScript (ES6+)
+-JavaScript
 
 
 ---
