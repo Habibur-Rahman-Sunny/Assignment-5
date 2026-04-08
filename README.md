@@ -23,9 +23,9 @@ This project includes:
 
 -HTML5
 
--CSS3
+-Tailwind
 
--JavaScript
+-Vanilla-JavaScript
 
 
 ---
