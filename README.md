@@ -15,38 +15,63 @@ Issue Tracker is a web application where users can view, search, and filter issu
 This project includes:
 
 -API integration
+
 -Asynchronous data fetching (fetch, async/await)
+
 -Dynamic UI rendering
+
 -Modal-based detailed view
+
 -Search and filtering functionality
+
 -🛠️ Technologies Used
+
 -HTML5
+
 -CSS3
+
 -JavaScript (ES6+)
+
 -Tailwind CSS
+
 -DaisyUI
+
 -Font Awesome
+
 -Google Fonts
+
 -External API
+
 
 ---
 
 ✨ Features
 📋 Filter issues (All, Open, Closed)
+
 🔍 Search issues by title
+
 📄 View detailed issue in a modal
+
 🔄 Dynamic data loading from API
+
 🎯 Active tab highlighting
+
 ⏳ Loading spinner while fetching data
+
 🏷️ Labels and priority display
+
 👤 Author and date information
+
 
 ---
 
 📦 Dependencies
 Tailwind CSS (CDN)
+
 DaisyUI
+
 Font Awesome
+
 Google Fonts
 
 ---
